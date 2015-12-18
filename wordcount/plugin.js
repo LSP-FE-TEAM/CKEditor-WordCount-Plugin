@@ -101,7 +101,7 @@ CKEDITOR.plugins.add("wordcount", {
         }
 
         if (config.showCharCount) {
-            var charLabel = editor.lang.wordcount[config.countHTML ? "CharCountWithHTML" : "CharCount"];
+            var charLabel = editor.lang.wordcount["CharCount"];
 
             defaultFormat += charLabel + " %charCount%";
             if (config.maxCharCount > -1) {
